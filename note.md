@@ -1,4 +1,5 @@
-pwd 展現路徑。
+# Day00
+pwd 展現路徑  
 ls  
 man 說明  
 man ls , man man  
@@ -21,3 +22,21 @@ rm 能直接刪檔案，不能刪目錄
 rm -rf XXX/ 
   
 ## Filesystem
+touch 新增一個檔案 
+可以一次製作多個 touch AAA BBB CCC  
+cat 看檔案前幾行
+cp 複製  
+cp AAA BBB 複製AAA檔案到BBB路徑
+mv 移動
+chmod
+
+## Vogsphere
+
+cd XXX 移到那一個資料夾
+git clone vogsphere@42424242424242424242424242424242 AAA 製作一個AAA資料夾同步伺服器端的該資歷夾
+cd AAA
+vim test.c
+git add test.c
+git commit -m "Added test.c"
+git push origin master 第一次要寫完整
+git push 第二次之後
