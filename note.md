@@ -28,7 +28,16 @@ cat 看檔案前幾行
 cp 複製  
 cp AAA BBB 複製AAA檔案到BBB路徑
 mv 移動
-chmod
+mv AAA BBB 移動AAA到BBB路徑
+chmod 
+Unix系統中可以同時存在大小寫
+d開頭是目錄 -開頭是一個檔案  
+r for read ,w for write ,x for excute
+123456789
+rwxr-xr-x
+123是我對該檔案的權限
+456是群組對該檔案的權限
+789是對其他不是你也不是群組的人
 
 ## Vogsphere
 
@@ -40,3 +49,10 @@ git add test.c
 git commit -m "Added test.c"
 git push origin master 第一次要寫完整
 git push 第二次之後
+
+day00
+ex01
+`echo "424242424242424242424242424242424242424">testDay00`
+`touch -t 201806012342.00 testDay00`
+`chmod 455 testDay00`
+`ls -l`
