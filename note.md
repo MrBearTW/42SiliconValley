@@ -58,5 +58,9 @@ ex01
 `ls -l`  
 ex02  
 ex03  
+ex04  
+ex05  
+ex06  
+
 
  
