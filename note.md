@@ -57,7 +57,7 @@ git push 第二次之後
 
 ## Emacs
 Crt+X or Crt+C quit   
-Crtl+X + Crtl+S save  
+Crtl+X + Crtl+S + Enter save  
 Crtl+Z suspend  
 fg go back  
 Crtl+E + Crtl+A go to beginning 跳回行首   
@@ -70,7 +70,28 @@ Crtl+X + 0 把游標所在的分頁關閉
 Crtl+X + Crtl+F add the mail back  
 Crtl+C + Crtl+H 加入42的圖檔  
 
-day00  
+
+# Vim 
+兩種模式Command Mode / Insertion Mode   
+i 進入Insertion Mode  
+esc 退出Insertion Mode  
+:w + enter save  
+:q 退出  
+$ to the end  
+^ to th begging  
+  
+:e open new file  
+  
+:vs 開啟水平分頁  
+:sp 開啟垂直分頁  
+crtl + w 在分頁之間移動  
+:q 退出  
+  
+:Stdheader 加入42的圖檔  
+
+
+
+day00ex  
 ex01  建一個檔案改時間改權限  
 `echo "424242424242424242424242424242424242424">testDay00`  
 `touch -t 201806012342.00 testDay00`  
@@ -95,8 +116,91 @@ ex11
 
 # Day01
 ## echo, cat, more
-
+echo 可以帶參數  
+  
 cat  
     -e      Display non-printing characters (see the -v option), and display a dollar sign (`$') at the end of each line.  
+  
+more 一頁一頁翻動，只能向下  
+less 一頁一頁翻動，可以上下  
+/??? 搜尋？？？  
+## head, tail, grep  
+`tail -n 3 file.txt`  
+  
+`grep "???" file.txt`  
+`grep -v "???" file.txt`  
+     -v, --invert-match 找沒有的  
+             Selected lines are those not matching any of the specified patterns.  
+    -i, --ignore-case 不區分大小寫  
+             Perform case insensitive matching.  By default, grep is case sensitive.  
+## redirections
+>  
+`echo "42" > output.txt`  keep on reading on th standard input 偽裝成標準輸入
+>>  
+`echo "school" > output.txt`  
 
+<
+`echo < output.txt`  
+=  
+`cat output.txt`  
+  
+|
+`cat output.txt | grep "???" | head -n 1`
+
+## sort, cut
+sort  
+`cat output.txt | sort`  
+ASCII characters sorting , uppercasse are before lowercasses  
+other find in man  
+  
+cut  
+`cat output.txt | sort | cut -d ,-f 1` 
+`cat output.txt | sort | cut -d ,-f 1 | cat -e` -e可以看出印不出來的字元  
+`cat output.txt | sort | cut -d ,-f 1`
+  
+sed  stream editor  
+`cat output.txt | sort | cut -d ,-f 1 | sed "s/thomas/Thomas"` 把thomas換成Thomas  
+  
+regex  
+  
+tr translate characters
+`cat output.txt | sort | cut -d ,-f 1 | tr "a" "e"`  
+
+## wc, ifconfig, bc, find, env, export  
+wc 計算字數行數字元  
+`wc output.txt`  
+AAA BBB CCC
+AAA行 BBB個單字 CCC字元  
+`wc *` 計算所有檔案  
+`cat output.txt | grep Thomas | wc -l` 計算出有Thomas有幾行  
+  
+file  
+`file output.txt`  
+    
+ifconfig  
+  
+bc 計算機  
+三角函數，指數，對數 2,8,10,16進位轉換  
+`echo "4+2" | bc`  
+  
+find  
+`find .`  
+`find /usr`  
+`find /usr -name "ls*"` 找/usr目錄下的ls開頭  
+  
+env  
+to all your binaries and scripts  , to all your binaries and scripts  
+知道使用者，使用什麼shell，參數  
+
+export  
+`export LINE=3`增加一個環境變數  
+`echo $LINE`回傳這個參數  
+
+## stdout, stderr
+`cat output.txt | rev`  
+1 standard output  
+2 standard erro  
+  
+/dev/null  
+`echo "???" >/dev/null`
 # Day02
