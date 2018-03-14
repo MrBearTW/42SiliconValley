@@ -50,17 +50,41 @@ git commit -m "Added test.c"
 git push origin master 第一次要寫完整  
 git push 第二次之後  
 
+## Kerberos ticket
+`klist`秀出所有
+`kdestory`
+`kinit mmontinet`拿新的票，要輸入密碼
+
+## Emacs
+Crt+X or Crt+C quit   
+Crtl+X + Crtl+S save  
+Crtl+Z suspend  
+fg go back  
+Crtl+E + Crtl+A go to beginning 跳回行首   
+Crtl+S + ??? find ??? in the file  
+Crtl+F + Crtl+X open another file  
+Crtl+X + 3 水平分割  
+Crtl+X + 2 垂直分割  
+Crtl+X + O 畫面之間選擇  
+Crtl+X + 0 把游標所在的分頁關閉  
+Crtl+X + Crtl+F add the mail back  
+Crtl+C + Crtl+H 加入42的圖檔  
+
 day00  
-ex01  
+ex01  建一個檔案改時間改權限  
 `echo "424242424242424242424242424242424242424">testDay00`  
 `touch -t 201806012342.00 testDay00`  
 `chmod 455 testDay00`  
 `ls -l`  
 ex02  
 ex03  
-ex04  
-ex05  
+ex04  剪下並選出最後一行
+`ldapwhoami -Q | cut -d ':' -f 2 | cut -d ',' -f 1,-6`
+ex05 選出 排序 修剪  
+`ldapsearch "cn" 2> /dev/null | grep "uid=z" | sort -t '=' -k 2 -r | cut -d':' -f2 | cut -d',' -f1`  
 ex06  
 
+ex07
+ex09
 
  
