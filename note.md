@@ -27,7 +27,7 @@ touch 新增一個檔案 
 cat 看檔案前幾行  
 cp 複製  
 cp AAA BBB 複製AAA檔案到BBB路徑  
-mv 移動  
+mv 移動，改名  
 mv AAA BBB 移動AAA到BBB路徑  
 chmod  
 Unix系統中可以同時存在大小寫  
@@ -77,14 +77,26 @@ ex01  建一個檔案改時間改權限
 `chmod 455 testDay00`  
 `ls -l`  
 ex02  
+建立捷徑`n -s test0 /nfs/2018/c/cperng/Desktop/day00/ex02/test6`  
+打包`tar -cf exo2.tar *`
+解包`tar xzf exo2.tar`
 ex03  
 ex04  剪下並選出最後一行
 `ldapwhoami -Q | cut -d ':' -f 2 | cut -d ',' -f 1,-6`
 ex05 選出 排序 修剪  
 `ldapsearch "cn" 2> /dev/null | grep "uid=z" | sort -t '=' -k 2 -r | cut -d':' -f2 | cut -d',' -f1`  
 ex06  
-
 ex07
+ex08
 ex09
+`patch a sw.diff`
+ex10
+ex11
 
- 
+# Day01
+## echo, cat, more
+
+cat  
+    -e      Display non-printing characters (see the -v option), and display a dollar sign (`$') at the end of each line.  
+
+# Day02
