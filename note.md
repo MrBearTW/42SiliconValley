@@ -51,10 +51,10 @@ git push origin master 第一次要寫完整
 git push 第二次之後  
 
 ## Kerberos ticket
-`klist`秀出所有
-`kdestory`
-`kinit mmontinet`拿新的票，要輸入密碼
-
+`klist`秀出所有 . 
+`kdestory` . 
+`kinit mmontinet`拿新的票，要輸入密碼 . 
+  
 ## Emacs
 Crt+X or Crt+C quit   
 Crtl+X + Crtl+S + Enter save  
@@ -124,7 +124,7 @@ cat
   
 more 一頁一頁翻動，只能向下  
 less 一頁一頁翻動，可以上下  
-/??? 搜尋？？？  
+/??? 搜尋???  
 ## head, tail, grep  
 
 `tail -n 3 file.txt`  
@@ -221,31 +221,31 @@ alias ll='ls -alF'
 可以使用ll等命令了  
   
 ## Day01ex
-ex01
-`groups $FT_USER`
-ex02
-`find .. -name "*.sh" | cut -d "/" -f 3 | cut -d "." -f 1`
-ex03
-`find .. | wc | awk '{print $1}'`
-ex04
-`ifconfig -a | grep -e "ether" | cut -d " " -f2 | grep ":"`
-ex05
-"\?$*'KwaMe'*$?\"$
-\"\\\?\$\*\'KwaMe\'\*\$\?\\\"
-ex06
-ex07
-ex08
-ex09
-
+ex01 . 
+`groups $FT_USER` . 
+ex02 . 
+`find .. -name "*.sh" | cut -d "/" -f 3 | cut -d "." -f 1` . 
+ex03 . 
+`find .. | wc | awk '{print $1}'` . 
+ex04 . 
+`ifconfig -a | grep -e "ether" | cut -d " " -f2 | grep ":"` . 
+ex05 . 
+"\?$*'KwaMe'*$?\"$ . 
+\"\\\?\$\*\'KwaMe\'\*\$\?\\\" . 
+ex06 . 
+ex07 . 
+ex08 . 
+ex09 . 
+  
 # Day02
 all functions have a type  
 they return a value of that type whenever they used  
 ## gcc 
 -o allows us to define the type of output file  
-
+  
 compile `gcc -o jour02 jour02.c` 
 write(A, "@", C);  
 A = file descriptor描述  
 "@" = string , a buffer  
-C = a size , number of bite to be displayed
-& = we give a character's address ,insted of the charcter itself,allow us to transform it into a string(char*)  
+C = a size , number of bite to be displayed . 
+& = we give a character's address ,insted of the charcter itself,allow us to transform it into a string(char*)  
