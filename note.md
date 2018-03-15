@@ -69,9 +69,10 @@ Crtl+X + O 畫面之間選擇
 Crtl+X + 0 把游標所在的分頁關閉  
 Crtl+X + Crtl+F add the mail back  
 Crtl+C + Crtl+H 加入42的圖檔  
+Crtl+K 剪下
+Crtl+Y 貼上
 
-
-# Vim 
+## Vim 
 兩種模式Command Mode / Insertion Mode   
 i 進入Insertion Mode  
 esc 退出Insertion Mode  
@@ -88,10 +89,10 @@ crtl + w 在分頁之間移動
 :q 退出  
   
 :Stdheader 加入42的圖檔  
+Fn + F1  加入42的圖檔
 
 
-
-day00ex  
+# Ｄay00ex  
 ex01  建一個檔案改時間改權限  
 `echo "424242424242424242424242424242424242424">testDay00`  
 `touch -t 201806012342.00 testDay00`  
@@ -99,21 +100,21 @@ ex01  建一個檔案改時間改權限
 `ls -l`  
 ex02  
 建立捷徑`n -s test0 /nfs/2018/c/cperng/Desktop/day00/ex02/test6`  
-打包`tar -cf exo2.tar *`
-解包`tar xzf exo2.tar`
+打包`tar -cf exo2.tar *`  
+解包`tar xzf exo2.tar`  
 ex03  
-ex04  剪下並選出最後一行
-`ldapwhoami -Q | cut -d ':' -f 2 | cut -d ',' -f 1,-6`
+ex04  剪下並選出最後一行  
+`ldapwhoami -Q | cut -d ':' -f 2 | cut -d ',' -f 1,-6`  
 ex05 選出 排序 修剪  
 `ldapsearch "cn" 2> /dev/null | grep "uid=z" | sort -t '=' -k 2 -r | cut -d':' -f2 | cut -d',' -f1`  
 ex06  
-ex07
-ex08
-ex09
-`patch a sw.diff`
-ex10
-ex11
-
+ex07  
+ex08  
+ex09  
+`patch a sw.diff`  
+ex10  
+ex11  
+  
 # Day01
 ## echo, cat, more
 echo 可以帶參數  
@@ -125,11 +126,13 @@ more 一頁一頁翻動，只能向下
 less 一頁一頁翻動，可以上下  
 /??? 搜尋？？？  
 ## head, tail, grep  
+
 `tail -n 3 file.txt`  
   
+grep    
 `grep "???" file.txt`  
 `grep -v "???" file.txt`  
-     -v, --invert-match 找沒有的  
+    -v, --invert-match 找沒有的  
              Selected lines are those not matching any of the specified patterns.  
     -i, --ignore-case 不區分大小寫  
              Perform case insensitive matching.  By default, grep is case sensitive.  
@@ -203,4 +206,46 @@ export
   
 /dev/null  
 `echo "???" >/dev/null`
+ 
+# 幫MAC加一下ll指令
+`vim ~/.bash_profile`  
+輸入下面內容  
+```
+alias ll='ls -alF'
+#alias la='ls -A'
+#alias l='ls -CF
+```
+重新整理  
+`source ~/.bash_profile`  
+  
+可以使用ll等命令了  
+  
+## Day01ex
+ex01
+`groups $FT_USER`
+ex02
+`find .. -name "*.sh" | cut -d "/" -f 3 | cut -d "." -f 1`
+ex03
+`find .. | wc | awk '{print $1}'`
+ex04
+`ifconfig -a | grep -e "ether" | cut -d " " -f2 | grep ":"`
+ex05
+"\?$*'KwaMe'*$?\"$
+\"\\\?\$\*\'KwaMe\'\*\$\?\\\"
+ex06
+ex07
+ex08
+ex09
+
 # Day02
+all functions have a type  
+they return a value of that type whenever they used  
+## gcc 
+-o allows us to define the type of output file  
+
+compile `gcc -o jour02 jour02.c` 
+write(A, "@", C);  
+A = file descriptor描述  
+"@" = string , a buffer  
+C = a size , number of bite to be displayed
+& = we give a character's address ,insted of the charcter itself,allow us to transform it into a string(char*)  
