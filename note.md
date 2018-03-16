@@ -251,3 +251,17 @@ A = file descriptor描述
 "@" = string , a buffer  
 C = a size , number of bite to be displayed  
 & = we give a character's address ,insted of the charcter itself,allow us to transform it into a string(char*)  
+  
+# Day03
+## Pointer
+Variables  
+可以指向另外一個變數的位置，遙控調整  
+一個執行序執行時，是有權利取得實際的記憶體  
+32bits 4GB  
+64bits  2的64次方  
+SWAP  
+Memory mapped by something called MMU
+high memory = stack  
+low memory = heep  
+## Assignment
+
