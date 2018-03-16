@@ -221,21 +221,22 @@ alias ll='ls -alF'
 可以使用ll等命令了  
   
 ## Day01ex
-ex01 . 
-`groups $FT_USER` . 
-ex02 . 
-`find .. -name "*.sh" | cut -d "/" -f 3 | cut -d "." -f 1` . 
-ex03 . 
-`find .. | wc | awk '{print $1}'` . 
-ex04 . 
-`ifconfig -a | grep -e "ether" | cut -d " " -f2 | grep ":"` . 
-ex05 . 
-"\?$*'KwaMe'*$?\"$ . 
-\"\\\?\$\*\'KwaMe\'\*\$\?\\\" . 
-ex06 . 
-ex07 . 
-ex08 . 
-ex09 . 
+ex01  
+`groups $FT_USER`  
+ex02  
+`find .. -name "*.sh" | cut -d "/" -f 3 | cut -d "." -f 1`  
+ex03  
+`find .. | wc | awk '{print $1}'`  
+ex04  
+`ifconfig -a | grep -e "ether" | cut -d " " -f2 | grep ":"`  
+ex05  
+"\?$*'KwaMe'*$?\"$  
+\"\\\?\$\*\'KwaMe\'\*\$\?\\\"  
+ex06  
+ex07  
+ex08  
+`ldapsearch "uid=bon" | wc -l`  
+ex09  
   
 # Day02
 all functions have a type  
@@ -244,8 +245,9 @@ they return a value of that type whenever they used
 -o allows us to define the type of output file  
   
 compile `gcc -o jour02 jour02.c` 
+執行`./jour02`  
 write(A, "@", C);  
 A = file descriptor描述  
 "@" = string , a buffer  
-C = a size , number of bite to be displayed . 
+C = a size , number of bite to be displayed  
 & = we give a character's address ,insted of the charcter itself,allow us to transform it into a string(char*)  

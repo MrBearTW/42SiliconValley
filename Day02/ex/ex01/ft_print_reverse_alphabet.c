@@ -1,38 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   jour02.c                                           :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cperng <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/03/15 00:12:10 by cperng            #+#    #+#             */
-/*   Updated: 2018/03/15 00:13:41 by cperng           ###   ########.fr       */
+/*   Created: 2018/03/15 16:30:13 by cperng            #+#    #+#             */
+/*   Updated: 2018/03/15 16:30:21 by cperng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include <unistd.h>
 
-int	ft_putchar(char c)
-{
-    write(1, &c, 1); //
+ int ft_putchar(char c)
+ {
+     write(1,&c,1);
     return(0);
-}
+ }
 
-int	ft_nputchar(char c,int n)
-{
-    int i ;
-    i=0;
-    while (i < n)
-	{
-	    ft_putchar(c);
-	    i = i + 1;
-	}
-    return(0);
-}
+ void ft_print_alphabet(void)
+ {
+     int letter;
 
-int	main()
-{
-    ft_nputchar('@',42);
-    ft_putchar('\n');
-    return (0);
-}
+     letter =122;
+     while(letter>='a')
+     {
+         ft_putchar(letter);
+         letter =letter-1;
+     }
+     ft_putchar('\n');
+ }
+
+ int main()
+ {
+     ft_print_alphabet();
+     return(0);
+ }
