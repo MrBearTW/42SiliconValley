@@ -83,6 +83,7 @@ $ to the end
   
 :e open new file  
   
+:set nu 開啟行數  
 :vs 開啟水平分頁  
 :sp 開啟垂直分頁  
 crtl + w 在分頁之間移動  
@@ -90,6 +91,15 @@ crtl + w 在分頁之間移動
   
 :Stdheader 加入42的圖檔  
 Fn + F1  加入42的圖檔
+```
+K上J下L左H右  
+O寫入新的一行  
+I進入編輯模式  
+dd刪除一整行  
+ESC後  
+:wq 存檔離開  
+:q! 不存檔離開  
+```
 
 
 # Ｄay00ex  
@@ -241,6 +251,7 @@ ex09
 # Day02
 all functions have a type  
 they return a value of that type whenever they used  
+void = null  
 ## gcc 
 -o allows us to define the type of output file  
   
@@ -264,4 +275,22 @@ Memory mapped by something called MMU
 high memory = stack  
 low memory = heep  
 ## Assignment
+做main.c
+
+## Dereferenciation
+指標要指向相同的種類
+
+## Pointer arithmetic算術
+可以對位置做計算  
+利用asterisk來檢查在位置上的是什麼  
+  
+## Arrays  
+
+end with a \0  
+  
+## 
+
+# Day4
+## Recursion - Theory
+`norminette -R CheckForbiddenSourceHeader`
 
