@@ -23,12 +23,12 @@ rm -rf XXX/
   
 ## Filesystem
 touch 新增一個檔案   
-可以一次製作多個 touch AAA BBB CCC   
+可以一次製作多個 touch AAA BBB CCC  
 cat 看檔案前幾行  
 cp 複製  
-cp AAA BBB 複製AAA檔案到BBB路徑  
+    cp AAA BBB 複製AAA檔案到BBB路徑  
 mv 移動，改名  
-mv AAA BBB 移動AAA到BBB路徑  
+    mv AAA BBB 移動AAA到BBB路徑  
 chmod  
 Unix系統中可以同時存在大小寫  
 d開頭是目錄 -開頭是一個檔案  
@@ -39,8 +39,7 @@ rwxr-xr-x
 456是群組對該檔案的權限  
 789是對其他不是你也不是群組的人  
 
-## Vogsphere
- 
+## Vogsphere 
 cd XXX 移到那一個資料夾  
 git clone vogsphere@424242424242 AAA 製作一個AAA資料夾同步伺服器端的該資歷夾  
 cd AAA  
@@ -83,14 +82,14 @@ $ to the end
   
 :e open new file  
   
-:set nu 開啟行數  
+:set nu 開啟行數顯示  
 :vs 開啟水平分頁  
 :sp 開啟垂直分頁  
 crtl + w 在分頁之間移動  
 :q 退出  
   
 :Stdheader 加入42的圖檔  
-Fn + F1  加入42的圖檔
+Fn + F1  加入42的圖檔  
 ```
 K上J下L左H右  
 O寫入新的一行  
