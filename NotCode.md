@@ -16,3 +16,6 @@ Day03
 
 Day04  
 考試要點進去註冊event
+
+3/17RUSH00
+加分題Sastantua 印個冰山出來
