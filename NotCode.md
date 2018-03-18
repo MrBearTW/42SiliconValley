@@ -5,17 +5,22 @@
 
 沒飲水機熱水 
 
-Day00  
+3/12Day00  
 有檢查機器  
 https://github.com/mirror12k/42us-stupidity  
 
-Day02
+3/13
+
+
+3/14Day02
 繳交格式有The Norm格式要遵守
 
-Day03
+3/15Day03
 
-Day04  
+3/16Day04  
 考試要點進去註冊event
 
 3/17RUSH00
 加分題Sastantua 印個冰山出來
+
+3/18
