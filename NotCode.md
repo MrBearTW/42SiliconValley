@@ -3,17 +3,22 @@
 
 手環
 
+只有噴泉式飲水機
 沒飲水機熱水 
 
+
+
 3/12Day00  
-有檢查機器  
-https://github.com/mirror12k/42us-stupidity  
+
 
 3/13
 
 
 3/14Day02
 繳交格式有The Norm格式要遵守
+
+有檢查機器  
+https://github.com/mirror12k/42us-stupidity  
 
 3/15Day03
 
@@ -24,3 +29,4 @@ https://github.com/mirror12k/42us-stupidity
 加分題Sastantua 印個冰山出來
 
 3/18
+
