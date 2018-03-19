@@ -23,8 +23,14 @@ https://github.com/mirror12k/42us-stupidity
 3/15Day03
 
 3/16Day04  
-考試要點進去註冊event
-
+考試要點進去註冊event，不然就可以直接回宿舍睡覺摟！
+  
+強者西班牙同學把  
+1.
+2.
+寫成一個script一起跑  
+https://github.com/oscardemadriz/towel
+  
 3/17RUSH00
 加分題Sastantua 印個冰山出來
 
