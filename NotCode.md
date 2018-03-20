@@ -5,8 +5,10 @@
 
 只有噴泉式飲水機
 沒飲水機熱水 
-
-
+  
+洗衣服烘衣幾
+都是插卡進去就可以免費洗  
+卡是放在洗衣間裡面公用  
 
 3/12Day00  
 
@@ -35,4 +37,11 @@ https://github.com/oscardemadriz/towel
 加分題Sastantua 印個冰山出來
 
 3/18
+
+3/19
+Day05 開始
+Day04有兩天可以correct
+
+
+
 
