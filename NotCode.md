@@ -41,7 +41,11 @@ https://github.com/oscardemadriz/towel
 3/19
 Day05 開始
 Day04有兩天可以correct
+  
+3/20  
+Day06開始
 
-
-
+3/21 
+Day07開始  
+Rush00評價  
 
