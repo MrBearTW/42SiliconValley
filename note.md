@@ -290,6 +290,23 @@ end with a \0
 ## 
 
 # Day4
+
+
+# Day5
+製作 .o 檔案  
+`gcc -c ft_putchar.c`  
+  
+製造libstr.a（一定要是）Lib開頭  
+（for static libraries）  
+`ar rc libstr.a ft_putchar.o ft_putstr.o`  
+  
+幫 .a 檔案製作index檔案，加快搜尋速度    
+`ranlib Libstr.a`
+
 ## Recursion - Theory
 `norminette -R CheckForbiddenSourceHeader`
+
+## ２合１工具towel
+https://github.com/oscardemadriz/towel  
+`./towel.sh 03 ossanche`  
 
