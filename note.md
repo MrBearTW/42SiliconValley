@@ -292,7 +292,7 @@ end with a \0
 # Day4
 
 
-# Day5
+# Day6
 製作 .o 檔案  
 `gcc -c ft_putchar.c`  
   
@@ -301,7 +301,21 @@ end with a \0
 `ar rc libstr.a ft_putchar.o ft_putstr.o`  
   
 幫 .a 檔案製作index檔案，加快搜尋速度    
-`ranlib Libstr.a`
+`ranlib Libstr.a`  
+  
+# Day06
+
+# Day07
+compile : ll.c to .o   
+linkage : use file.o to generate an executable   
+分成兩部作，遇到大型專案時，不用每次都從頭到尾compile一次  
+## dynamically allocate memory
+`./a.out &`讓程式在背景後面跑  
+`top`進入系統監控，看記憶體使用量  
+`q`離開  
+  
+可以控制一些原本沒有固定大小的像是strings arrays chainedlist
+
 
 ## Recursion - Theory
 `norminette -R CheckForbiddenSourceHeader`
