@@ -303,8 +303,6 @@ end with a \0
 幫 .a 檔案製作index檔案，加快搜尋速度    
 `ranlib Libstr.a`  
   
-# Day06
-
 # Day07
 compile : ll.c to .o   
 linkage : use file.o to generate an executable   
@@ -317,10 +315,51 @@ linkage : use file.o to generate an executable
 可以控制一些原本沒有固定大小的像是strings arrays chainedlist
 
 
+
+# Day08
+preprocesser >> compilation of files.c >> linkage  
+preprocesser : allow you generate code  
+set defines macros巨集  
+typedef  
+  
+## #include
+`gcc -Wall -W -Werror main.c`  
+CPP preprocess command  
+`cpp main.c`  
+  
+## file.h
+建立 main.c fct.c  
+`gcc -Wall -W -Werror main.c fct.c`  
+
+建立fct.h  
+在執行一次`gcc -Wall -W -Werror main.c fct.c`  
+出現錯誤訊息  
+``fct.c:5:9: error: conflicting types for 'ft_fct'
+void    ft_fct(void)
+        ^
+./fct.h:1:9: note: previous declaration is here
+void    ft_fct(int a);
+        ^
+1 error generated. ``
+  
+## ifdef/#ifndef
+"if..." , "ifdef" , "ifndef" , "endif" , "elif"
+
+#ifdef
+#end
+
+
+
+
+
+
+
+
+
+
 ## Recursion - Theory
 `norminette -R CheckForbiddenSourceHeader`
 
 ## ２合１工具towel
 https://github.com/oscardemadriz/towel  
 `./towel.sh 03 ossanche`  
-
