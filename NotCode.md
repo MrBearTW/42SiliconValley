@@ -1,5 +1,5 @@
-
-評分機制是從第一題開始  
+耳機很重要  
+評分機制是從第一題開始  
 
 手環
 
@@ -28,8 +28,8 @@ https://github.com/mirror12k/42us-stupidity
 考試要點進去註冊event，不然就可以直接回宿舍睡覺摟！
   
 強者西班牙同學把  
-1.
-2.
+1.Norminette  
+2.stupidity  
 寫成一個script一起跑  
 https://github.com/oscardemadriz/towel
   
@@ -65,7 +65,6 @@ EXAM01因為伺服器不能上傳檔案，就跳過惹
 3/24(六)  
 Day8+9訂正共需要六點
 團體作業比較難
-個人作業比較簡單
 
 3/25(日)
 
