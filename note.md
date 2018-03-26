@@ -348,8 +348,10 @@ void    ft_fct(int a);
 #ifdef
 #end
 
-
-
+## 第二週個人作業
+Match-N-Match
+ex00比對過程細節參考
+https://goo.gl/L2VVtX
 
 
 
