@@ -216,18 +216,6 @@ export
 /dev/null  
 `echo "???" >/dev/null`
  
-# 幫MAC加一下ll指令
-`vim ~/.bash_profile`  
-輸入下面內容  
-```
-alias ll='ls -alF'
-#alias la='ls -A'
-#alias l='ls -CF
-```
-重新整理  
-`source ~/.bash_profile`  
-  
-可以使用ll等命令了  
   
 ## Day01ex
 ex01  
@@ -357,7 +345,21 @@ https://goo.gl/L2VVtX
 
 
 
+# 幫MAC加一下ll指令(zsh就有了)
+`vim ~/.bash_profile`  
+輸入下面內容  
+```
+alias ll='ls -alF'
+#alias la='ls -A'
+#alias l='ls -CF
+```
+重新整理  
+`source ~/.bash_profile`  
+  
+可以使用ll等命令了  
 
+## Oh My ZSH!
+`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)`
 
 ## Recursion - Theory
 `norminette -R CheckForbiddenSourceHeader`
