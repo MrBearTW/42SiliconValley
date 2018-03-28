@@ -341,11 +341,12 @@ Match-N-Match
 ex00比對過程細節參考
 https://goo.gl/L2VVtX
 
+# Day11
 
 
 
 
-# 幫MAC加一下ll指令(zsh就有了)
+### 幫MAC加一下ll指令(zsh就有了)
 `vim ~/.bash_profile`  
 輸入下面內容  
 ```
