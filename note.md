@@ -368,3 +368,6 @@ alias ll='ls -alF'
 ## ２合１工具towel
 https://github.com/oscardemadriz/towel  
 `./towel.sh 03 ossanche`  
+  
+更多４２工具  
+https://medium.com/@WMisiedjan/how-to-beat-moulinette-at-42-9b6102db9cf    
