@@ -56,6 +56,24 @@ call by value
 int(*func)(int,int)  
   
 
+# 檔案
+檔案操作分兩種  
+1.使用系統呼叫，使用檔案描述子int  
+2.使用Ｃ語言函式庫，使用檔案指標file＊  
+Linux將I/O都視為檔案  
+０標準輸入，Keyboard，stdin  
+１標準輸出，螢幕，stdout  
+２標準錯誤，螢幕，stderr  
+  
+open() 開啟一個檔案 
+close() 關閉一個檔案  
+write() 將緩衝區資料寫入到檔案  
+read() 從檔案內讀去資料寫到緩衝區  
+lseek() 設定準備讀取檔案資料的位置  
+
+# Makefile
+
+  
 
 
 
