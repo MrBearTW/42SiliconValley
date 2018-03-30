@@ -84,15 +84,19 @@ Day12開始
 又換區到Zone3  
 
 3/29(四)  
-3/30(五)
-3/31()
-4/1()
-4/2()
-4/3()
-4/4()
-4/5()
-4/6()  
-4/7()  
+Zone３早上會曬到太陽  
+DayXX作業好像要超過２５％才有計分  
+下午宣布補考Exam01  
+
+3/30(五)  
+3/31(六)  
+4/1(一)  
+4/2(二)  
+4/3(三)  
+4/4(四)  
+4/5(五)  
+4/6(六)  
+4/7(日)  
 https://medium.com/@WMisiedjan/how-to-beat-moulinette-at-42-9b6102db9cf  
 https://hellolynn.hpd.io/category/%E7%A8%8B%E5%BC%8F/cc/  
 
