@@ -15,6 +15,11 @@
 
 地板振動動次動次
 
+
+Ｍac用iTerm2上PTT指令  
+`ssh bbsu@ptt.cc`  
+特別針對 unicode 環境所提供的接口  
+
 3/12Day00  
 
 
