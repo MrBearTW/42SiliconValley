@@ -85,7 +85,7 @@ $ to the end
 :set nu 開啟行數顯示  
 :vs 開啟水平分頁  
 :sp 開啟垂直分頁  
-crtl + w 在分頁之間移動  
+crtl + w 在分頁之間移動(要按兩次)  
 :q 退出  
   
 :Stdheader 加入42的圖檔  
