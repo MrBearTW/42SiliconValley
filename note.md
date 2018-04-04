@@ -379,4 +379,7 @@ MOULINETTE
 
 Ｍac用iTerm2上PTT指令  
 `ssh bbsu@ptt.cc`  
-特別針對 unicode 環境所提供的接口  
+特別針對 unicode 環境所提供的接口 
+
+# FTP Server
+python2.7 -m SimpleHTTPServer 
