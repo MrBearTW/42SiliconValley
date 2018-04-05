@@ -22,11 +22,16 @@
 美式貼圖製作網站  
 `http://www.imagechef.com/meme-maker`
   
+各種其怪的改圖
+例如  
+!npatton  
+!THill  
+  
 Ｍac用iTerm2上PTT指令  
 `ssh bbsu@ptt.cc`  
 特別針對 unicode 環境所提供的接口  
   
-
+ 
 
 3/12Day00  
 
@@ -117,9 +122,13 @@ BSQ開始之後還是可以找人一起
 下午LAB停水一小時  
 有人開始籌劃週五考完試的趴踢  
 有人開始製作同學通訊錄  
-晚上有Julia的講座  
+晚上有Julia的講座`https://twitter.com/42SiliconValley/status/981630007008260102`  
 4/4(三)  
 半夜有人在玩這個`http://en.battleship-game.org/id35916785`  
+檢討RUSH02，有用到.a檔案的話，記得把所有檔案都丟上去  
+RUSH02抄別人答案的會被鎖帳號，然後就去辦公室聊聊天  
+EvalExpr100分的會請你一個小時內重寫出來  
+
 4/5(四)  
 4/6(五)  
 4/7(六)  

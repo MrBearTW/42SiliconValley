@@ -90,6 +90,10 @@ crtl + w 在分頁之間移動(要按兩次)
   
 :Stdheader 加入42的圖檔  
 Fn + F1  加入42的圖檔  
+  
+自動排版
+在Command Mode模式下`gg=G`  
+但是int後面兩個還是要自己按tab  
 ```
 K上J下L左H右  
 O寫入新的一行  
@@ -361,7 +365,9 @@ alias ll='ls -alF'
 
 ## Oh My ZSH!
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)`
-
+  
+修改zsh設定`vim ~/.zshrc`  
+  
 ## Recursion - Theory
 `norminette -R CheckForbiddenSourceHeader`
 
