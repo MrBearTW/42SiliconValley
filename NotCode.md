@@ -128,10 +128,12 @@ BSQ開始之後還是可以找人一起
 檢討RUSH02，有用到.a檔案的話，記得把所有檔案都丟上去  
 RUSH02抄別人答案的會被鎖帳號，然後就去辦公室聊聊天  
 EvalExpr100分的會請你一個小時內重寫出來  
-
 4/5(四)  
+考試模式時`:syntax on`可以開起有上色模式  
 4/6(五)  
+
 4/7(六)  
+
 https://medium.com/@WMisiedjan/how-to-beat-moulinette-at-42-9b6102db9cf  
 https://hellolynn.hpd.io/category/%E7%A8%8B%E5%BC%8F/cc/  
 
