@@ -28,7 +28,8 @@
 !THill  
 !abraye  
 !omg  
-!really  
+!really    
+!juno  
   
 Ｍac用iTerm2上PTT指令  
 `ssh bbsu@ptt.cc`  
@@ -121,6 +122,7 @@ DayXX作業好像要超過２５％才有計分
 4/2(一)  
 EvalExpr用Script的版本可以過電腦評分  
 BSQ開始之後還是可以找人一起  
+有人揪團開車去Santa Cruz，看照片很漂亮  
 4/3(二)  
 下午LAB停水一小時  
 有人開始籌劃週五考完試的趴踢  
