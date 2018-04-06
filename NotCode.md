@@ -135,7 +135,10 @@ EvalExpr100分的會請你一個小時內重寫出來
 4/5(四)  
 考試模式時`:syntax on`可以開起有上色模式  
 4/6(五)  
-
+有人試著作弊，把答案藏在ldap裡面    
+有強者同學做出排行榜網頁  
+等級排行level9.05 level7.23 level7.17 level6.xx四人 level5.xx十三人 level4.xx十七人  
+時間排行前十名486 415 405 399 396 393 389 373 372 367小時  
 4/7(六)  
 
 https://medium.com/@WMisiedjan/how-to-beat-moulinette-at-42-9b6102db9cf  
