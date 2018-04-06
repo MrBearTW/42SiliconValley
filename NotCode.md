@@ -26,6 +26,9 @@
 例如  
 !npatton  
 !THill  
+!abraye  
+!omg  
+!really  
   
 Ｍac用iTerm2上PTT指令  
 `ssh bbsu@ptt.cc`  
